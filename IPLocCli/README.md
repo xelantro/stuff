@@ -1,0 +1,1 @@
+Dependencies: jFreechart (with jCommon)

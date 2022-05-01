@@ -1,0 +1,1 @@
+Dependencies: itextpdf (last used 5.5.9)

@@ -1,0 +1,1 @@
+Dependencies: discord4j (last used 3.2.1)
