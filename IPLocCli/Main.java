@@ -66,7 +66,7 @@ public class Main {
 				.filter(i -> i!= ownIP)
 				//.peek(System.out::println)
 				.map(i -> { try {
-					return new BufferedReader(new InputStreamReader(new URL("https://api.memium.de/ip?ip="+i).openStream()))
+					return new BufferedReader(new InputStreamReader(new URL("https://ip.api.memium.de/?ip="+i).openStream()))
 							.readLine().split(",")[7].substring(15);
 				} catch (Exception e) {return "";}})
 				.filter(i->!i.isEmpty())
